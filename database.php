@@ -1,8 +1,8 @@
 <?php
-$servername = "your_servername";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_dbname";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "dbTask";
 $port = "8080";
 
 // Create connection
