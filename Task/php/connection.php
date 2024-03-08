@@ -2,8 +2,8 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "dbTask";
-$port = "8080";
+$dbname = "dbtaskmanagement";
+$port = "3307";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
