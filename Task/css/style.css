@@ -193,8 +193,16 @@ th, td {
 
 #addTaskBtn {
     padding: 12px;
+<<<<<<< HEAD
+<<<<<<< HEAD
     margin-right: 35vw;
     background-color: #009c41; /* Green color for Add Task button */
+=======
+=======
+>>>>>>> 5f4ad5c30c25458886a6a973b5442165b9d63e7c
+    margin-right: 25vw;
+    background-color: #2ecc71; /* Green color for Add Task button */
+>>>>>>> aa8fe29753432e1b5ec7d10805bd849760b7371d
     color: #fff;
     border: none;
     cursor: pointer;
