@@ -21,14 +21,14 @@ body::before {
 @keyframes gradientAnimation {
     0% {
         opacity: 0.2;
-    }
+    }   
     100% {
         opacity: 0.5;
     }
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 50px auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -40,6 +40,7 @@ body::before {
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #999 #ecf0f1;
+    
 }
 
 .container::-webkit-scrollbar {
@@ -116,9 +117,10 @@ select {
 
 #taskTable {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate; /**/
     margin-top: 20px;
     color: #333; /* Text color for better contrast */
+    border-color: #0096FF;  /**/
     border-radius: 10px; /* Add border-radius for rounded corners */
     overflow: hidden; /* Ensure overflow is hidden for rounded corners */
 }
@@ -126,7 +128,7 @@ select {
 th, td {
     padding: 12px; /* Increased padding for better visual appeal */
     border-bottom: 1px solid #ddd;
-    text-align: left;
+    text-align: center;
     background-color: #ecf0f1; /* Background color for table cells */
     color: #333; /* Text color for table cells */
     border-radius: 10px; /* Add border-radius for rounded corners */
@@ -140,7 +142,6 @@ th, td {
 #cancelTask:hover {
     background-color: #bbb;
 }
-
 
 #successMessage {
     display: none;
@@ -193,12 +194,12 @@ th, td {
 #addTaskBtn {
     padding: 12px;
     margin-right: 35vw;
-    background-color: #2ecc71; /* Green color for Add Task button */
+    background-color: #009c41; /* Green color for Add Task button */
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 8px; /* More rounded corners */
-    transition: background-color 0.3s;
+    transition: background-color 0.2s;
 }
 
 #addTaskBtn:hover {
@@ -259,11 +260,11 @@ select option[value="All"] {
 }
 
 select option[value="Ongoing"] {
-    background-color: #2ecc71; /* Green color for Ongoing */
+    background-color: #f39c12; /* Yellow color for Ongoing */
 }
 
 select option[value="Done"] {
-    background-color: #f39c12; /* Yellow color for Done */
+    background-color: #2ecc71; /* Green color for Done */
 }
 
 .editTask {
@@ -305,4 +306,9 @@ select option[value="Done"] {
 
 button {
     margin: 0 5px; /* Adjust the margin as needed */
+}
+
+.taskTable .container{
+    color: #0096FF;
+
 }
