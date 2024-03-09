@@ -133,10 +133,10 @@ $(document).ready(function () {
             data: { id: taskId },
             success: function (data) {
                 data = JSON.parse(data);
-                $("#title").val(data.title);
+                $("#title").val(data.title);    
                 $("#description").val(data.description);
                 $("#taskDate").val(data.task_date);
-                $("taskTime").val(data.task_time)
+                $("#taskTime").val(data.task_time);
                 $("#status").val(data.status);
     
                 // Hide the status label
