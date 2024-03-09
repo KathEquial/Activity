@@ -184,6 +184,7 @@ $(document).ready(function () {
                 if (response == "success") {
                     loadTasks();
                     showSuccessMessage("Task status changed successfully!");
+                    $('#filterStatus').val("All");
                 } else {
                     alert("Error changing task status");
                 }
